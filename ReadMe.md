@@ -1,4 +1,5 @@
 # Laravel 12 Basic Demo
+
 <a name="readme-top"></a>
 
 (START)
@@ -15,7 +16,6 @@ Once complete, remove from `(START)` to `(END)`
 
 (END)
 
-
 #### Built With
 
 [![PHP][Php.com]][Php-url]
@@ -31,17 +31,15 @@ Eg: `[![Laragon][Laragon.org][Laragon-url]`
 
 ## Definitions
 
-| Term | Definition                                                                                                  |
-|----|-------------------------------------------------------------------------------------------------------------|
-| BREAD | Database operations to Browse, Read, Edit, Add and Delete data                                               |
-| CRUD | More commonly used term over BREAD. Create (Add), Retrieve (Browse/Read), Update (Edit) and Delete (Delete) |
+| Term  | Definition                                                                                                  |
+|-------|-------------------------------------------------------------------------------------------------------------|
+| BREAD | Database operations to Browse, Read, Edit, Add and Delete data                                              |
+| CRUD  | More commonly used term over BREAD. Create (Add), Retrieve (Browse/Read), Update (Edit) and Delete (Delete) |
 
 TO DO: Add any extra definitions used in the document. For example, they
 could include `MVC`, `HTTP VERB` and more.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## Description
 
@@ -57,8 +55,6 @@ Use the following questions as a guide:
 - What did you learn?
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## Table of Contents
 
@@ -87,7 +83,6 @@ local and then set up and run.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Usage
 
 TO DO: Provide instructions and examples for use. Include screenshots as
@@ -102,7 +97,6 @@ your README using the following syntax:
     ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## Credits
 
@@ -119,16 +113,15 @@ and books.
 
 - Font Awesome. (n.d.). Fontawesome.com. https://fontawesome.com
 - Laravel - The PHP Framework For Web Artisans. (2011). Laravel.com. https://laravel.com
-- Laravel Bootcamp - Learn the PHP Framework for Web Artisans. (n.d.). Bootcamp.laravel.com. https://bootcamp.laravel.com/
+- Laravel Bootcamp - Learn the PHP Framework for Web Artisans. (n.d.).
+  Bootcamp.laravel.com. https://bootcamp.laravel.com/
 - PHP: Hypertext Preprocessor. (n.d.). Www.php.net. https://php.net
-- Professional README Guide. (n.d.). Coding-Boot-Camp.github.io. Retrieved April 15, 2024, from https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- Professional README Guide. (n.d.). Coding-Boot-Camp.github.io. Retrieved April 15, 2024,
+  from https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 - TailwindCSS. (2023). Tailwind CSS - Rapidly build modern websites
   without ever leaving your HTML. Tailwindcss.com. https://tailwindcss.com/
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## Badges
 
@@ -159,6 +152,7 @@ and books.
 Workopia features include, but are not limited to:
 
 #### Work Listings
+
 Work listings have the usual CRUD/BREAD operations including:
 
 * Browse Listings [Guest, User, Admin]
@@ -169,6 +163,7 @@ Work listings have the usual CRUD/BREAD operations including:
 * Delete Listing [Admin, Owner]
 
 #### Users
+
 * User self registration [Guest]
 * Login [Registered User]
 * Logout [Registered User]
@@ -176,6 +171,7 @@ Work listings have the usual CRUD/BREAD operations including:
 * Account admin [Admin, Owner]
 
 #### Administration
+
 * Work BREAD [Admin]
 * User BREAD [Admin]
 * Permissions Admin [Admin]
@@ -184,11 +180,11 @@ Work listings have the usual CRUD/BREAD operations including:
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Go the extra mile and write tests for your application. Then provide examples on how to run them
+here.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## Contact
 
@@ -197,8 +193,6 @@ Your Name - @twitter_handle - email@email_client.com
 Project Link: https://github.com/github_username/repo_name
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## Licence
 

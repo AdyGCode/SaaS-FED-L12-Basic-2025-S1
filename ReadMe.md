@@ -1,4 +1,4 @@
-# Workopia in Laravel 11
+# Laravel 12 Basic Demo
 <a name="readme-top"></a>
 
 (START)

@@ -180,17 +180,17 @@ rendered page on GitHub.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[forks-shield]: http://img.shields.io/github/forks/adygcode/SaaS-FED-L12-Basic-2025-S1-v11.svg?style=for-the-badge
+[forks-shield]: http://img.shields.io/github/forks/adygcode/SaaS-FED-L12-Basic-2025-S1.svg?style=for-the-badge
 
-[forks-url]: https://github.com/AdyGCode/SaaS-FED-L12-Basic-2025-S1-v11/network/members
+[forks-url]: https://github.com/AdyGCode/SaaS-FED-L12-Basic-2025-S1/network/members
 
-[issues-shield]: http://img.shields.io/github/issues/adygcode/SaaS-FED-L12-Basic-2025-S1-v11.svg?style=for-the-badge
+[issues-shield]: http://img.shields.io/github/issues/adygcode/SaaS-FED-L12-Basic-2025-S1.svg?style=for-the-badge
 
-[issues-url]: https://github.com/adygcode/SaaS-FED-L12-Basic-2025-S1-v11/issues
+[issues-url]: https://github.com/adygcode/SaaS-FED-L12-Basic-2025-S1/issues
 
-[licence-shield]: https://img.shields.io/github/license/adygcode/SaaS-FED-L12-Basic-2025-S1-v11.svg?style=for-the-badge
+[licence-shield]: https://img.shields.io/github/license/adygcode/SaaS-FED-L12-Basic-2025-S1.svg?style=for-the-badge
 
-[licence-url]: https://github.com/adygcode/SaaS-FED-L12-Basic-2025-S1-v11/blob/main/License.md
+[licence-url]: https://github.com/adygcode/SaaS-FED-L12-Basic-2025-S1/blob/main/License.md
 
 [product-screenshot]: images/screenshot.png
 

@@ -2,19 +2,7 @@
 
 <a name="readme-top"></a>
 
-(START)
-
-TO DO: Make sure the Repository is PRIVATE
-
-TO DO: Add Your lecturer as a contributor to the project repository, so
-they are able to see your code, the commit history and other details
-within the repository.
-
-TO DO: Add a one sentence overview/summary of this project.
-
-Once complete, remove from `(START)` to `(END)`
-
-(END)
+A small demonstration project for Laravel 12, using Blade Templating.
 
 #### Built With
 
@@ -23,11 +11,8 @@ Once complete, remove from `(START)` to `(END)`
 [![Tailwindcss][Tailwindcss.com]][Tailwindcss-url]
 [![Livewire][Livewire.com]][Livewire-url]
 [![Inertia][Inertia.com]][Inertia-url]
+[![PhpStorm][PhpStorm.com]][JetBrains-url]
 
-TO DO: Add the IDE, Development stack/Platform, and other items used in
-developing your solution. You will need to add the link definitions at the
-end of the file for links similar to the above to work.
-Eg: `[![Laragon][Laragon.org][Laragon-url]`
 
 ## Definitions
 
@@ -36,29 +21,27 @@ Eg: `[![Laragon][Laragon.org][Laragon-url]`
 | BREAD | Database operations to Browse, Read, Edit, Add and Delete data                                              |
 | CRUD  | More commonly used term over BREAD. Create (Add), Retrieve (Browse/Read), Update (Edit) and Delete (Delete) |
 
-TO DO: Add any extra definitions used in the document. For example, they
-could include `MVC`, `HTTP VERB` and more.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Description
 
-TO DO: Provide a short description explaining the what, why, and how of your
-project.
+This project contains a number of demonstrations including:
 
-Use the following questions as a guide:
+- Static Page Controller
+- CRUD/BREAD
+- One-to-Many Relationships
+- Many-to-Many Relationships
+- Full Text Search
+- Roles and Permissions
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a
-  homework assignment.")
-- What problem does it solve?
-- What did you learn?
+and much more.
+
+Notes for this are contained in the ICT50220 Saas FED course run at North Metropolitan TAFE.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Table of Contents
-
-TO DO: Add extra, or update the contents as needed, then remove this line.
 
 - [Description](#description)
 - [Definitions](#definitions)
@@ -73,43 +56,22 @@ TO DO: Add extra, or update the contents as needed, then remove this line.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step
-description of how to get the development environment running.
-
-Note this may be on a free hosting system using any suitable method you
-wish. It also may be on a local machine where the project is cloned to the
-local and then set up and run.
+> TO DO
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 
-TO DO: Provide instructions and examples for use. Include screenshots as
-needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and
-upload your screenshot to it. Then, using the relative filepath, add it to
-your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+> TO DO
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Credits
 
-TO DO: List your collaborators, if any, with links to their GitHub
-profiles. This should include the TAFE and your lecturers' GitHub profiles.
+> TO DO
 
-If you used any third-party assets that require attribution, list the creators
-with links to their primary web presence in this section. For example
-FontAwesome, TailwindCSS etc.
-
-If you followed tutorials, include links to those here as well. This would
-include the Traversy Media course(s), YouTube videos, written tutorials
-and books.
+Useful references used in creating this demo include, but is not limited to:
 
 - Font Awesome. (n.d.). Fontawesome.com. https://fontawesome.com
 - Laravel - The PHP Framework For Web Artisans. (2011). Laravel.com. https://laravel.com
@@ -149,11 +111,11 @@ and books.
 
 ## Features
 
-Workopia features include, but are not limited to:
+This Demo's features include, but are not limited to:
 
-#### Work Listings
+#### Countries
 
-Work listings have the usual CRUD/BREAD operations including:
+The Countries feature has the usual CRUD/BREAD operations including:
 
 * Browse Listings [Guest, User, Admin]
 * Retrieve Listing [Guest, User, Admin]
@@ -180,17 +142,16 @@ Work listings have the usual CRUD/BREAD operations including:
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them
-here.
+> TO DO
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 
-Your Name - @twitter_handle - email@email_client.com
+Adrian Gould - adrian.gould@nmtafe.wa.edu.au
 
-Project Link: https://github.com/github_username/repo_name
+Project Link: https://github.com/AdyGCode/SaaS-FED-L12-Basic-2025-S1
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,17 +180,17 @@ rendered page on GitHub.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[forks-shield]: http://img.shields.io/github/forks/adygcode/workopia-laravel-v11.svg?style=for-the-badge
+[forks-shield]: http://img.shields.io/github/forks/adygcode/SaaS-FED-L12-Basic-2025-S1-v11.svg?style=for-the-badge
 
-[forks-url]: https://github.com/AdyGCode/workopia-laravel-v11/network/members
+[forks-url]: https://github.com/AdyGCode/SaaS-FED-L12-Basic-2025-S1-v11/network/members
 
-[issues-shield]: http://img.shields.io/github/issues/adygcode/workopia-laravel-v11.svg?style=for-the-badge
+[issues-shield]: http://img.shields.io/github/issues/adygcode/SaaS-FED-L12-Basic-2025-S1-v11.svg?style=for-the-badge
 
-[issues-url]: https://github.com/adygcode/workopia-laravel-v11/issues
+[issues-url]: https://github.com/adygcode/SaaS-FED-L12-Basic-2025-S1-v11/issues
 
-[licence-shield]: https://img.shields.io/github/license/adygcode/workopia-laravel-v11.svg?style=for-the-badge
+[licence-shield]: https://img.shields.io/github/license/adygcode/SaaS-FED-L12-Basic-2025-S1-v11.svg?style=for-the-badge
 
-[licence-url]: https://github.com/adygcode/workopia-laravel-v11/blob/main/License.md
+[licence-url]: https://github.com/adygcode/SaaS-FED-L12-Basic-2025-S1-v11/blob/main/License.md
 
 [product-screenshot]: images/screenshot.png
 

@@ -8,13 +8,13 @@ deployment:
     - echo "Copy Complete" >> deployment.txt
     - echo "Current Folder:" >> deployment.txt
     - pwd >> deployment.txt
-#    - echo "Changing to Deployment Folder" >> deployment.txt
-#    - cd $DEPLOYPATH
-#    - echo "Artisan Install" >> deployment.txt
-#    - php artisan install
-#    - echo "Artisan Migrate" >> deployment.txt
-#    - php artisan migrate
-#    - echo "NPM Install" >> deployment.txt
-#    - npm install
-#    - echo "NPM Build" >> deployment.txt
-#    - npm run build
+    - echo "Changing to Deployment Folder" >> deployment.txt
+    - cd $DEPLOYPATH
+    - echo "Artisan Install" >> deployment.txt
+    - php artisan install
+    - echo "Artisan Migrate" >> deployment.txt
+    - php artisan migrate
+    - echo "NPM Install" >> deployment.txt
+    - npm install
+    - echo "NPM Build" >> deployment.txt
+    - npm run build

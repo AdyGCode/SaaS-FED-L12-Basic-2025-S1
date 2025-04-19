@@ -71,7 +71,7 @@ Notes for this are contained in the ICT50220 Saas FED course run at North Metrop
 
 > TO DO
 
-Useful references used in creating this demo include, but is not limited to:
+Useful references used in creating this demo include, but are not limited to:
 
 - Font Awesome. (n.d.). Fontawesome.com. https://fontawesome.com
 - Laravel - The PHP Framework For Web Artisans. (2011). Laravel.com. https://laravel.com
@@ -171,11 +171,7 @@ to [https://choosealicense.com/](https://choosealicense.com/).
 
 ---
 
-
-
-TO DO: Update the links in the MarkDown Links and Images section of the
-original MarkDown document as needed. The links are not visible in the
-rendered page on GitHub.
+End of Document
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

@@ -5,6 +5,6 @@ deployment:
     - cd $DEPLOYPATH
     - pwd
     - php artisan install
-#    - php artisan migrate
-#    - npm install
-#    - npm run build
+    - php artisan migrate
+    - npm install
+    - npm run build

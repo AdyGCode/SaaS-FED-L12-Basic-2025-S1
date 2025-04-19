@@ -6,8 +6,8 @@ deployment:
     - echo "Copying To Deployment Folder" >> deployment.txt
     - /bin/cp -R . $DEPLOYPATH
     - echo "Copy Complete" >> deployment.txt
-    - echo "Changing to Deployment Folder" >> deployment.txt
-    - cd $DEPLOYPATH
+#    - echo "Changing to Deployment Folder" >> deployment.txt
+#    - cd $DEPLOYPATH
     - echo "Current Folder:" >> deployment.txt
     - pwd >> deployment.txt
 #    - echo "Artisan Install" >> deployment.txt

@@ -1,11 +1,19 @@
 ---
 deployment:
   tasks:
+    - echo "Setting Deployment Folder" > deployment.txt
     - export DEPLOYPATH=/home/stubbie/public_html/
+    - echo "Copying To Deployment Folder" >> deployment.txt
     - /bin/cp -R . $DEPLOYPATH
+    - echo "Changing to Deployment Folder" >> deployment.txt
     - cd $DEPLOYPATH
-    - pwd > current_folder.txt
+    - echo "Current Folder:" >> deployment.txt
+    - pwd >> deployment.txt
+#    - echo "Artisan Install" >> deployment.txt
 #    - php artisan install
+#    - echo "Artisan Migrate" >> deployment.txt
 #    - php artisan migrate
+#    - echo "NPM Install" >> deployment.txt
 #    - npm install
+#    - echo "NPM Build" >> deployment.txt
 #    - npm run build

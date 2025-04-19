@@ -9,5 +9,3 @@ deployment:
     - echo "Current Folder:" >> deployment.txt
     - pwd >> deployment.txt
     - echo "Changing to Deployment Folder" >> deployment.txt
-    - cd $DEPLOYPATH
-    - pwd >> deployment.txt

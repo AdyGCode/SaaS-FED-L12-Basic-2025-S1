@@ -1,10 +1,11 @@
+---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/stubbie/public_html/
     - /bin/cp -R . $DEPLOYPATH
     - cd $DEPLOYPATH
     - pwd
-    - php artisan install
-    - php artisan migrate
-    - npm install
-    - npm run build
+#    - php artisan install
+#    - php artisan migrate
+#    - npm install
+#    - npm run build

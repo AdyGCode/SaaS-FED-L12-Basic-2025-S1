@@ -211,3 +211,8 @@ End of Document
 [Php-url]: https://inertiajs.com
 
 [VSCode.com]: ...
+
+
+[PhpStorm.com]: https://img.shields.io/badge/Jetbrains-000000?style=for-the-badge&logo=jetbrains&logoColor=white
+
+[JetBrains-url]: https://jetbrains.com

@@ -10,10 +10,6 @@ class Sport extends Model
     /** @use HasFactory<\Database\Factories\SportFactory> */
     use HasFactory;
 
-    protected $fillable = ['name'];
-
-
-
     /**
      * The attributes that are mass assignable.
      *

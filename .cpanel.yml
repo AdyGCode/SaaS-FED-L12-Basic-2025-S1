@@ -4,7 +4,7 @@ deployment:
     - export DEPLOYPATH=/home/stubbie/public_html/
     - /bin/cp -R . $DEPLOYPATH
     - cd $DEPLOYPATH
-    - pwd
+    - pwd > current_folder.txt
 #    - php artisan install
 #    - php artisan migrate
 #    - npm install

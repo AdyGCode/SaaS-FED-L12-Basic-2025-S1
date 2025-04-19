@@ -28,7 +28,11 @@ class UserSeeder extends Seeder
             ],
         ];
 
-        User::insertOrUpdate($users);
+        foreach ($users as $user) {
+            User::updateOrCreate($user);
+        }
+
+
 
     }
 }

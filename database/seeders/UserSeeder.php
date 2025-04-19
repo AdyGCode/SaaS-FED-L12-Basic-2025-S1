@@ -18,6 +18,7 @@ class UserSeeder extends Seeder
 
         $users = [
             [
+                'id'=>1,
                 'name' => 'Ad Ministrator',
                 'email' => 'admin@example.com',
                 'email_verified_at' => now(),
@@ -27,7 +28,7 @@ class UserSeeder extends Seeder
             ],
         ];
 
-        User::insert($users);
+        User::insertOrUpdate($users);
 
     }
 }

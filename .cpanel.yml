@@ -1,12 +1,11 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/stubbie/public_html/
+    - export DEPLOYPATH=/home/stubbie/public_html
     - export SOURCEPATH=/home/stubbie/repositories/SaaS-FED-L12-Basic-2025-S1/
-    - /bin/cp -R $SOURCEPATH $DEPLOYPATH
+    - /bin/cp -R $SOURCEPATH/* $DEPLOYPATH
     - cd $DEPLOYPATH
-    - composer install
-    - php artisan install
-    - php artisan migrate:fresh --seed
-    - npm install
+    - composer install -y
+    - php artisan migrate:fresh --seed --force
+    - npm install -y
     - npm run build

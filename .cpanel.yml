@@ -3,7 +3,8 @@ deployment:
   tasks:
     - echo "Setting Deployment Folder" > deployment.txt
     - export DEPLOYPATH=/home/stubbie/public_html/
+    - export SOURCEPATH=/home/stubbie/repositories/SaaS-FED-L12-Basic-2025-S1/
     - echo "Copying To Deployment Folder" >> deployment.txt
-    - /bin/cp -R . $DEPLOYPATH
+    - /bin/cp -R $SOURCEPATH $DEPLOYPATH
     - echo "Copy Complete" >> deployment.txt
     - echo "Current Folder:" >> deployment.txt

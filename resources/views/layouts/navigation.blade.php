@@ -25,6 +25,10 @@
                         </x-nav-link>
                     @endauth
 
+                    <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
+                        {{ __('Home') }}
+                    </x-nav-link>
+
                 </div>
             </div>
 

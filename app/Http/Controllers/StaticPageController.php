@@ -23,7 +23,17 @@ class StaticPageController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        return view('static.welcome');
+    }
+
+    /**
+     * Show the application about page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function about()
+    {
+        return view('static.about');
     }
 
     /**
@@ -33,6 +43,6 @@ class StaticPageController extends Controller
      */
     public function dashboard()
     {
-        return view('dashboard');
+        return view('static.dashboard');
     }
 }

@@ -8,6 +8,7 @@ use App\Http\Controllers\StaticPageController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [StaticPageController::class, 'index'])->name('home');
+Route::get('/', [StaticPageController::class, 'about'])->name('abouot');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -27,4 +28,3 @@ Route::resource('/sports', SportController::class)
 //Route::get('/sports', [App\Http\Controllers\SportController::class, 'show'])->name('show');
 
 require __DIR__ . '/auth.php';
-

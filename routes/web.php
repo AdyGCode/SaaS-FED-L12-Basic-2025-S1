@@ -8,7 +8,7 @@ use App\Http\Controllers\StaticPageController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [StaticPageController::class, 'index'])->name('home');
-Route::get('/', [StaticPageController::class, 'about'])->name('about');
+Route::get('/about', [StaticPageController::class, 'about'])->name('about');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
